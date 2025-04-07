@@ -1,6 +1,11 @@
 {
   "manifest_version": 3,
+
   "name": "Insulate",
   "description": "Supercharge your AI experience with a library of prompts designed for precise, efficient, and creative outputs.",
-  "version": "1.0.0"
+  "version": "1.0.0",
+
+  "action": {
+    "default_popup": "index.html"
+  }
 }
