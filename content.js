@@ -1,3 +1,4 @@
 chrome.runtime.onMessage.addListener((msg) => {
-  console.log(msg)
+  const input = document.activeElement
+  input.value = msg
 })
